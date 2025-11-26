@@ -18,6 +18,3 @@ data/
 
 .DS_Store
 Thumbs.db
-
-*.pt
-*.pth
