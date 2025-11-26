@@ -5,3 +5,4 @@ matplotlib==3.10.6
 pillow==11.3.0
 tqdm==4.67.1
 pandas==2.3.3 
+streamlit==1.50.0

@@ -61,7 +61,7 @@ def main():
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=0.0003) # Adam optimizer, added weight decay
 
-    num_epochs = 30
+    num_epochs = 25
     # lr decay
     scheduler = torch.optim.lr_scheduler.OneCycleLR(
         optimizer,
