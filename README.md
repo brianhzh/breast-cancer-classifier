@@ -4,6 +4,8 @@ This project is a machine learning model built with PyTorch that classifies brea
 
 The model was trained on the [BreakHis dataset](https://www.kaggle.com/datasets/ambarish/breakhis), which has two classifications: malignant or benign.
 
+demo: https://brianhzh-breast-cancer-classifier-srcapp-blbdrs.streamlit.app/
+
 To use, run
 
 ```
@@ -44,4 +46,5 @@ test accuracy: 90.3%
 ---------------------------------------------
 
 Author: Brian Zhang
+
 
