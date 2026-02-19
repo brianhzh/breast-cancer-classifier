@@ -65,7 +65,7 @@ def main():
     # lr decay
     scheduler = torch.optim.lr_scheduler.OneCycleLR(
         optimizer,
-        max_lr=0.0018,
+        max_lr=0.00175,
         epochs=num_epochs,
         steps_per_epoch=len(train_loader)
     )   

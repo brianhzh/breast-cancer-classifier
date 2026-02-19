@@ -3,6 +3,8 @@
 *.pyd
 *.pkl
 *.log
+*.png
+
 
 .venv/
 breast_cancer_env/
