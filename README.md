@@ -17,34 +17,14 @@ Sample training images:
 <img width="850" height="290" alt="image" src="https://github.com/user-attachments/assets/fadb0692-31d1-4c96-8ee4-b642cd8d9ce2" />
 
 ---------------------------------------------
+ROC-AUC:
 
-changelog:
+<img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/f24336a0-9eb1-45c8-a9c0-a4e623ab5d85" />
 
----------------------------------------------
-
-**first model** (adam optimizer, batch_size=32):
-
-epochs: 5
-train loss: ~0.15  
-test loss: ~0.5  
-issues: overfitting
-
-**second model:** 
-
-changes: 
-- added dropout  
-- data augmentation  
-- OneCycleLR
-- more layers
-- optimizations
-
-epochs: 30
-train loss: ~0.24  
-test loss: ~0.23  
-test accuracy: 90.3%  
 
 ---------------------------------------------
 
 Author: Brian Zhang
+
 
 
