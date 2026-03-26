@@ -9,8 +9,8 @@ from model import CNN
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def load_model():
-    base_dir = os.path.dirname(__file__)    
-    model_path = os.path.join(base_dir, "cnn_breakhis.pth") 
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    model_path = os.path.join(base_dir, "cnn_breakhis.pth")
     model = CNN(num_classes=2)
     state = torch.load(model_path, map_location=device)
     model.load_state_dict(state)
